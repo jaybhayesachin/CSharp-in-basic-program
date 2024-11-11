@@ -1,0 +1,21 @@
+using System.Collections;
+
+namespace CSharpbasicprogram
+
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            ArrayList obj = new ArrayList();
+            obj.Add("c");
+            obj.Add(12000);
+            obj.Add("cpp");
+            obj.Add(25000);
+            for (int i=0;i<obj.Count;i++)
+            {
+                Console.WriteLine(obj[i]);
+            }
+        }
+    }
+}
